@@ -1,3 +1,5 @@
+#script to simulate evolution of philogenetic tree for data in fasta file
+
 from Bio import SeqIO
 from Bio.Seq import Seq
 import random
