@@ -1,3 +1,5 @@
+#script to searching and drawing hamilton grapf for set of sequences in fasta format
+
 import Bio.Seq
 from Bio import SeqIO
 import matplotlib.pyplot as plt
@@ -8,8 +10,6 @@ for record in SeqIO.parse("test_fasta.txt", "fasta"):
     print("%s %i" % (record.id, len(record)))
     print(record.seq)
     print(record.seq.reverse_complement())
-
-
 
 def kmers(s,k):
     wynik=list()
