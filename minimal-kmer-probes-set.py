@@ -1,3 +1,5 @@
+#script to finding minimal set of k-mer probes for fixed k
+
 #### Otrzymany wynik to 464 ####
 # liczy się 19 minut
 # idea: dla ustalonego k tworzymy widmo k-merów każdej sekwencji
