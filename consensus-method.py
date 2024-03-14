@@ -1,3 +1,5 @@
+# script with implementation of consensus method for motif finding
+
 import numpy as np
 import math
 import pandas as pd
