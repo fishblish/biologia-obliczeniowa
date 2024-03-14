@@ -1,3 +1,5 @@
+# script to designate alignment for pair of sequences
+
 from Bio.Seq import Seq
 from Bio.Align import substitution_matrices
 from Bio import Align
